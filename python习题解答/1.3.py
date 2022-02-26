@@ -9,7 +9,7 @@ BIM = float(weight) / (float(height) ** 2)
 print('标准BIM；18.5~23.9')
 print('BIM:',round(BIM,2))
 
-if (BIM >= 18.5) and (BIM <= 23.9) :
+if  18.5 <= BIM <= 23.9 :
     print('健康状态：健 康')
 else :
     print('健康状态：不健康')
